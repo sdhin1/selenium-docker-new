@@ -3,7 +3,7 @@
 
     <test name="book-flight">
     	
-    	<parameter name="executionType" value="remote" />
+    	<parameter name="executionType" value="local" />
         <classes>
             <class name="com.newtours.tests.BookFlightTest" />
         </classes>

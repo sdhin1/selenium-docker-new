@@ -27,11 +27,13 @@ public class FindFlightPage {
     public void submitFindFlightPage(){
         this.wait.until(ExpectedConditions.elementToBeClickable(this.firstSubmitBtn));
         this.firstSubmitBtn.click();
+        System.out.println("Submit find flight page !!!");
     }
 
     public void goToFlightConfirmationPage(){
         this.wait.until(ExpectedConditions.elementToBeClickable(this.secondSubmitBtn));
         this.secondSubmitBtn.click();
+        System.out.println("Go to flight confirmation page !!!");
     }
 
 }

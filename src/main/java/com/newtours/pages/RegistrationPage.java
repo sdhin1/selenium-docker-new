@@ -63,6 +63,6 @@ public class RegistrationPage {
 
     public void submit(){
         this.submitBtn.click();
-        System.out.println("Sumit --------");
+        System.out.println("Submit --------");
     }
 }

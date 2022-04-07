@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="book-flight-module" duration-ms="39122" started-at="2022-04-06T18:34:31 IST" finished-at="2022-04-06T18:35:10 IST">
+    <groups>
+    </groups>
+    <test name="book-flight-1" duration-ms="39122" started-at="2022-04-06T18:34:31 IST" finished-at="2022-04-06T18:35:10 IST">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.newtours.tests.BookFlightTest@5e5792a0]" name="setUpDriver" is-config="true" duration-ms="5215" started-at="2022-04-06T18:34:31 IST" finished-at="2022-04-06T18:34:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="registrationPage()[pri:0, instance:com.newtours.tests.BookFlightTest@5e5792a0]" name="registrationPage" duration-ms="15713" started-at="2022-04-06T18:34:36 IST" finished-at="2022-04-06T18:34:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method status="PASS" signature="registrationConfirmationPage()[pri:0, instance:com.newtours.tests.BookFlightTest@5e5792a0]" name="registrationConfirmationPage" duration-ms="5776" started-at="2022-04-06T18:34:52 IST" depends-on-methods="com.newtours.tests.BookFlightTest.registrationPage" finished-at="2022-04-06T18:34:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method status="PASS" signature="flightDetailsPage()[pri:0, instance:com.newtours.tests.BookFlightTest@5e5792a0]" name="flightDetailsPage" duration-ms="11499" started-at="2022-04-06T18:34:58 IST" depends-on-methods="com.newtours.tests.BookFlightTest.registrationConfirmationPage" finished-at="2022-04-06T18:35:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailsPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.newtours.tests.BookFlightTest@5e5792a0]" name="quitBrowser" is-config="true" duration-ms="878" started-at="2022-04-06T18:35:09 IST" finished-at="2022-04-06T18:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- book-flight-1 -->
+  </suite> <!-- book-flight-module -->
+</testng-results>

@@ -1,27 +1,13 @@
 package com.newtours.tests;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.newtours.pages.FlightDetailsPage;
 import com.newtours.pages.RegistrationConfirmationPage;
 import com.newtours.pages.RegistrationPage;
+import com.tests.BaseTest;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
-public class BookFlightTest {
-
-	private WebDriver driver;
-
-    @BeforeTest
-    public void setUpDriver(){
-    	WebDriverManager.chromedriver().setup();
-        this.driver = new ChromeDriver();
-        this.driver.manage().window().maximize();
-    }
+public class BookFlightTest extends BaseTest {
 
     @Test
     public void registrationPage(){
@@ -61,10 +47,7 @@ public class BookFlightTest {
         //Assert.assertEquals(actualPrice, expectedPrice);
     }*/
     
-    @AfterTest
-    public void quitBrowser(){
-        this.driver.quit();
-    }
+    
 
 
 }

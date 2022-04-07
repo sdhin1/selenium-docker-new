@@ -35,6 +35,7 @@ public class FlightDetailsPage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+        System.out.println("Select Passenger details as "+noOfPassengers);
     }
 
     public void goToFindFlightsPage(){
@@ -45,5 +46,6 @@ public class FlightDetailsPage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+        System.out.println("Go to find flights page !!!");
     }
 }

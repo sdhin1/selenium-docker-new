@@ -45,20 +45,24 @@ public class RegistrationPage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+        System.out.println("Navigating to site https://demo.guru99.com/selenium/newtours/register.php");
     }
 
     public void enterUserDetails(String firstName, String lastName){
         this.firstNameTxt.sendKeys(firstName);
         this.lastNameTxt.sendKeys(lastName);
+        System.out.println("Enter User Details as First Name = "+firstName+". Last Name = "+lastName);
     }
 
     public void enterUserCredentials(String username, String password){
         this.usernameTxt.sendKeys(username);
         this.passwordTxt.sendKeys(password);
         this.confirmPasswordTxt.sendKeys(password);
+        System.out.println("Enter User Details as Username = "+username+". password = "+password);
     }
 
     public void submit(){
         this.submitBtn.click();
+        System.out.println("Sumit --------");
     }
 }

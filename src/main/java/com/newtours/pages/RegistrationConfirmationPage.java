@@ -33,5 +33,6 @@ public class RegistrationConfirmationPage {
 			e.printStackTrace();
 		}
         this.flightsLink.click();
+        System.out.println("Go to Flight Details Page !!!!");
     }
 }

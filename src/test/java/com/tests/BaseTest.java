@@ -25,6 +25,8 @@ public class BaseTest {
     	
     	String host = "localhost";
         DesiredCapabilities dc;
+        
+        System.out.println("------------- Executing tests on "+executionType+"---------------");
     	
     	if(executionType.equalsIgnoreCase("local")) {
     		
